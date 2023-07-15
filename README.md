@@ -80,3 +80,51 @@ git checkout -b issue1
 git merge issue1. 
 
 
+## Git Hub Collaboration
+
+### Create a repository on Github
+
+The project is already set up on a local machine:
+
+create new repository
+give it a name
+press create repository
+
+copy the url 
+go to local repository 
+aim push all this local repo to remote repo
+
+git status 
+
+git push url address master
+
+see commit history
+
+see branches
+
+### back to local
+
+git add -a
+
+git commit -m
+
+git push url master (this is long)
+
+### set up alias of the remote repo url and call it origin, for quickness
+
+git remote add origin url
+
+git push origin master
+
+exactly the same as before but quicker.
+
+
+
+
+### Clone it
+
+### Push Changes to Remote Repo
+
+
+
+

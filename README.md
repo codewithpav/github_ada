@@ -110,7 +110,7 @@ git commit -m
 
 git push url master (this is long)
 
-### set up alias of the remote repo url and call it origin, for quickness
+### Set up an alias of the remote repo URL and call it the origin, for quickness
 
 git remote add origin url
 
@@ -119,11 +119,43 @@ git push origin master
 exactly the same as before but quicker.
 
 
+### Collegue does work - i.e Pav Clone it
 
+#### clone
 
-### Clone it
+keep files up to date
+
+git pull origin master - fetch all of the code from the master branch from remote onto local.
+
+create new features, 
+
+git checkout -b cheatsheet
+
+make changes
+
+git add -a
 
 ### Push Changes to Remote Repo
+
+git commit -m "added a new file"
+
+Note - we're not going to merge this on the master branch local, because our team may not like it
+
+instead, we're going to push the branch to remote, and then follow a process for it to be approved. And then once it's merged with master, then the whole team can get it. 
+
+git push origin cheatsheet
+
+### Compare and pull request
+
+explain what you have done.
+
+press pull request - when this is done, other developers can get notified. 
+
+### Merge request
+
+Merge this from github.
+
+
 
 
 
